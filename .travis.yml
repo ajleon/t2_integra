@@ -6,3 +6,5 @@ deploy:
   app: secret-sands-23033
   on:
     repo: ajleon/t2_integra
+  script:
+    - rake test
