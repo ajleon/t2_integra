@@ -169,6 +169,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   json
+  mime-types-data
   pg (~> 0.15)
   rails (= 4.2.6)
   sass-rails (~> 5.0)
