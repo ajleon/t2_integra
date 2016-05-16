@@ -1,5 +1,6 @@
 require "http"
 require "json"
+
 class ApiController < ApplicationController
   skip_before_filter :verify_authenticity_token
   def buscar
