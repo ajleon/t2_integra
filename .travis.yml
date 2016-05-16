@@ -1,7 +1,7 @@
 sudo: required
 
 language: ruby
-rvm:
+ruby:
   -2.3.0
 deploy:
   provider: heroku
