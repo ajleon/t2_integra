@@ -1,8 +1,8 @@
-sudo: required
-
 language: ruby
 rvm:
-  -2.3.0
+ - 2.3.0
+script:
+ - bundle exec rake test test/controllers/api_controller_test.rb
 deploy:
   provider: heroku
   api_key:
@@ -10,5 +10,3 @@ deploy:
   app: secret-sands-23033
   on:
     repo: ajleon/t2_integra
-  script:
-    - rake test
