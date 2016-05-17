@@ -28,3 +28,6 @@ Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
 
 {<img src="https://travis-ci.org/ajleon/t2_integra.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/ajleon/t2_integra]
+[![Test Coverage](https://codeclimate.com/github/ajleon/t2_integra/badges/coverage.svg)](https://codeclimate.com/github/ajleon/t2_integra/coverage)
+
+[![Issue Count](https://codeclimate.com/github/ajleon/t2_integra/badges/issue_count.svg)](https://codeclimate.com/github/ajleon/t2_integra)
